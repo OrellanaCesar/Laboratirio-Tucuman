@@ -1,1 +1,50 @@
 /* You can add global styles to this file, and also import other style files */
+html, body{
+    
+    background-color: var(--surface-b);
+    font-family: var(--font-family);
+}
+
+.item-menu{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.img-menu{
+    height: 5em;
+    margin-left: 20px;
+}
+
+
+.p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link{
+  padding:  3rem 3rem !important;
+}
+
+.th-footer{
+    background: #e9ecef;
+    width: 100%;
+    float: left;
+}
+
+.box-footer{
+    padding: 70px 0;
+    position: relative;
+}
+
+.card-footer {
+    padding: 1.25rem;
+    color: #7a7474;
+}
+
+.card-footer-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.card-footer-content{
+    padding: 1.25rem 0;
+}
+.card-footer-footer{
+    padding: 1.25rem 0 0 0;
+}
