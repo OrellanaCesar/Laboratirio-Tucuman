@@ -16,17 +16,20 @@ export class HeaderComponent implements OnInit {
       {
         label: 'Home',
         icon : 'pi pi-home',
-        styleClass : 'item-menu'
+        styleClass : 'item-menu',
+        routerLink: '/'
       },
       {
         label : 'Nosotros',
         icon : 'pi pi-bell',
-        styleClass : 'item-menu'
+        styleClass : 'item-menu',
+        routerLink : 'nosotros'
       },
       {
         label: 'Contacto',
         icon: 'pi pi-comment',
-        styleClass : 'item-menu'
+        styleClass : 'item-menu',
+        routerLink : 'contacto'
       }
     ]
   }

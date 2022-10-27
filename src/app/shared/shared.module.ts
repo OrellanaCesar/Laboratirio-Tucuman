@@ -3,9 +3,8 @@ import { CommonModule } from '@angular/common';
 
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { PrimeNgModule } from '../prime-ng/prime-ng.module';
 
-import {MenubarModule} from 'primeng/menubar';
-import {CardModule} from 'primeng/card';
 
 @NgModule({
   declarations: [
@@ -14,8 +13,7 @@ import {CardModule} from 'primeng/card';
   ],
   imports: [
     CommonModule,
-    CardModule,
-    MenubarModule
+    PrimeNgModule
   ],
   exports : [
     HeaderComponent,
