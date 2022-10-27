@@ -1,0 +1,6 @@
+
+<p-carousel [value]="cars"  [autoplayInterval]="3000" [circular]="true">
+    <ng-template let-car pTemplate="item">
+        <img src="assets/images/{{ car }}" class="images-carousel-size">
+    </ng-template>
+</p-carousel>
