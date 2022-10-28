@@ -1,6 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 html, body{
-    
+
     background-color: var(--surface-b);
     font-family: var(--font-family);
 }
@@ -15,10 +15,22 @@ html, body{
     margin-left: 20px;
 }
 
-
-.p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link{
-  padding:  3rem 3rem !important;
+.p-menuitem-text:hover{
+  color: #117dbf !important;
 }
+
+.p-menuitem-text:focus{
+  color: #117dbf !important;
+}
+
+.p-menuitem-text:active{
+  color: #117dbf !important;
+}
+
+
+/* .p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link{
+  padding:  3rem 3rem !important;
+} */
 
 .th-footer{
     background: #e9ecef;
@@ -53,4 +65,21 @@ html, body{
 .images-carousel-size{
     height: 450px;
     width: 100%;
+}
+
+.p-menubar {
+  padding: 0.5rem !important;
+  background: #f8f9fa !important;
+  color: #495057 !important;
+  border: none !important;
+  border-radius: 6px !important;
+}
+
+.p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link:not(.p-disabled):hover{
+  color: #117dbf !important;
+  background: none !important;
+}
+
+.p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link:not(.p-disabled):focus{
+  box-shadow: none !important;
 }
