@@ -2,8 +2,10 @@ import { NgModule } from '@angular/core';
 
 import { RouterModule, Routes } from '@angular/router';
 import { ContactoComponent } from './contacto/contacto.component';
-import { NosotrosComponent } from './nosotros/nosotros.component';
+
 import { PrincipalComponent } from './home/principal/principal.component';
+import { NosotrosPrincipalComponent } from './nosotros/nosotros-principal/nosotros-principal.component';
+
 
 const routes : Routes = [
   {
@@ -16,7 +18,7 @@ const routes : Routes = [
   },
   {
     path: 'nosotros',
-    component: NosotrosComponent
+    component: NosotrosPrincipalComponent
   },
   {
     path : '**',
